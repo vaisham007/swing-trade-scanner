@@ -26,11 +26,13 @@ const WATCHLISTS = {
     'MS','SPGI','LOW','TXN','ISRG','HON','NEE','GE','BLK','AXP'
   ],
   vaisham: [
-    'AAPL','MSFT','NVDA','AMZN','GOOGL','META','TSLA','BRK-B','AVGO','JPM',
-    'V','XOM','UNH','MA','HD','COST','BAC','NFLX','PG','WMT',
-    'LIN','AMD','ORCL','CRM','CVX','MCD','KO','CSCO','WFC','ABT',
-    'ACN','CAT','IBM','GS','INTU','NOW','T','UBER','RTX','BKNG',
-    'MS','SPGI','LOW','TXN','ISRG','HON','NEE','GE','BLK'
+    'BAC','WFC','NIO','FDX','SNAP','AMD','NVDA','ROKU','SQ','PYPL',
+    'ZM','JNJ','CLX','QQQ','WDC','NKE','T','JPM','BBY','ORCL',
+    'EBAY','V','OKTA','TGT','WDAY','LOW','HD','AMZN','INTC','AVGO',
+    'GS','COST','META','PLTR','SNOW','GOOGL','WMT','NFLX','SPY',
+    'AAL','TSLA','MAR','LUV','CCL','MMM','DAL','UAL','UPS','WYNN',
+    'MSFT','UBER','AAPL','NCLH','RCL','CHGG','RKT','CWH','BJ','W',
+    'WD','TYL','ZM','NDX'
   ]
 };
 
@@ -42,6 +44,12 @@ const FUND_SCORE = {
   'BRK-B':4,CAT:4,MS:4,
   IBM:3,CSCO:3,KO:3,BAC:3,WFC:3,NEE:3,GE:3,HON:3,LIN:3,XOM:3,CVX:3,
   RTX:3,NFLX:3,UBER:3,MCD:3,T:2,
+  // vaisham extras
+  AMZN:5,GOOGL:5,MSFT:5,AAPL:5,NVDA:5,META:5,TSLA:4,
+  JNJ:4,NKE:4,TGT:4,FDX:3,UPS:4,DAL:3,UAL:2,AAL:2,LUV:2,CCL:2,NCLH:2,RCL:2,
+  MAR:3,WYNN:3,PLTR:3,SNOW:3,OKTA:3,WDAY:3,PYPL:3,SQ:3,EBAY:3,
+  INTC:3,WDC:2,ROKU:2,ZM:2,SNAP:2,NIO:2,QQQ:5,SPY:5,
+  CHGG:2,RKT:2,CWH:2,BJ:3,W:2,WD:2,TYL:3,MMM:3,BBY:3,NDX:5,
 };
 
 // ─── INDICATORS ───────────────────────────────────────────────────────────────
